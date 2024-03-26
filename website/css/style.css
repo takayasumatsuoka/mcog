@@ -1,0 +1,140 @@
+ol.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+ol.breadcrumb li::after {
+    content: ">";
+    margin: 0 10px;
+}
+
+ol.breadcrumb li:last-child::after {
+    content: none;
+}
+
+table {
+    border-bottom: 1px solid;
+    caption-side: bottom;
+}
+
+thead {
+    border-top: double;
+}
+
+table > tbody > tr + tr > td {
+    border-top: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table > thead > tr > th {
+    text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+    padding: 5px 10px;
+}
+
+#global_navi {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#global_navi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-left: 1px solid #cccccc;
+}
+
+#global_navi ul li{
+    border-right: 1px solid #cccccc;
+}
+
+#global_navi ul li a{
+    display: block;
+    padding: 6px 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 125px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+ul.pref {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.toc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.pref > li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul.pref > li > ul > li {
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 250px;
+    width: auto;
+    margin: 20px auto;
+    background-image: url("../images/mcog_tokyo.png");   
+}
+
+.top_title {
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table{
+    margin: auto;
+}
+
+iframe{
+    margin: auto;
+}
+
+img {
+    margin: auto;
+}
+
+table caption {
+    text-align: left;
+}

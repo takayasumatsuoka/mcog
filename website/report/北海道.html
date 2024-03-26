@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="../css/style.css">
+<title>
+宿泊者数の重心 | 北海道
+</title>
+</head>
+<body>
+<body>
+<nav id="global_navi">
+<ul>
+<li>
+<a href="../index.html">トップ</a>
+</li>
+<li>
+<a href="../how_to_use.html">使い方</a>
+</li>
+<li>
+<a href="../on_data.html">データについて</a>
+</li>
+<li>
+<a href="../method.html">算出方法について</a>
+</li>
+<li>
+<a href="../developer.html">発展的な使い方</a>
+</li>
+<li>
+<a href="../policy.html">サイトポリシー</a>
+</li>
+</ul>
+</nav>
+<ol class="breadcrumb">
+<li>
+<a href="../index.html">トップ</a>
+</li>
+<li>
+北海道
+</li>
+</ol>
+<h1 id="h1_0">
+北海道
+</h1>
+<ul>
+<li>
+<strong><a href="#h1_1">１．延べ宿泊者（総数、月次）の推移</a></strong>
+<ul>
+<li>
+<a href="#h2_1">時系列グラフ</a>
+</li>
+<li>
+<a href="#h2_2">基本統計量</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_2">２．宿泊者数の重心（年平均の推移）</a></strong>
+<ul>
+<li>
+<a href="#h2_4">重心の前年平均からの移動距離と方位、および緯度・経度</a>
+</li>
+<li>
+<a href="#h2_5">運輸局別延べ宿泊者数</a>
+<ul>
+<li>
+<a href="#h3_1">時系列（年平均）</a>
+</li>
+<li>
+<a href="#h3_2">寄与度（前年からの変化率に対する）</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_3">３．宿泊者数の重心（月別）</a></strong>
+<ul>
+<li>
+<a
+href="#h2_6">全期間（2008年1月～2023年12月）の平均と月別平均の比較</a>
+</li>
+<li>
+<a href="#h2_7">運輸局別延べ宿泊者数</a>
+<ul>
+<li>
+<a href="#h3_3">月別平均（2008年1月～2023年12月）</a>
+</li>
+<li>
+<a href="#h3_4">寄与度（全期間の平均から月別平均への変化率に対する）</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_4">４．データのダウンロード</a></strong>
+</li>
+</ul>
+</div>
+<h1 id="h1_1">
+１．延べ宿泊者（総数）の推移
+</h1>
+<h2 id="h2_1">
+時系列グラフ
+</h2>
+<div style="text-align: center">
+<img src="../images/line/北海道.png">
+<figcaption>
+図１：北海道内の従業員数100人以上の宿泊施設での延べ宿泊者数（国外、居住地不詳を含む総数）。
+</figcaption>
+</div>
+<h2 id="h2_2">
+基本統計量
+</h2>
+<table>
+<caption>表１：従業員数100人以上の宿泊施設での延べ宿泊者の総数（国外、および居住地不詳を含む）に関する基本統計量。単位は人。平均は１か月あたりの平均値を表す。図１に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">平均</th>
+<th style="text-align: center;">標準偏差</th>
+<th style="text-align: center;">最小値</th>
+<th style="text-align: center;">最大値</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2008年</td>
+<td style="text-align: center;">774,908</td>
+<td style="text-align: center;">136,761</td>
+<td style="text-align: center;">488,982 (4月)</td>
+<td style="text-align: center;">1,004,598 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2009年</td>
+<td style="text-align: center;">711,612</td>
+<td style="text-align: center;">140,141</td>
+<td style="text-align: center;">431,472 (4月)</td>
+<td style="text-align: center;">992,433 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2010年</td>
+<td style="text-align: center;">560,033</td>
+<td style="text-align: center;">162,522</td>
+<td style="text-align: center;">276,524 (4月)</td>
+<td style="text-align: center;">767,679 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2011年</td>
+<td style="text-align: center;">498,029</td>
+<td style="text-align: center;">130,068</td>
+<td style="text-align: center;">249,590 (4月)</td>
+<td style="text-align: center;">735,823 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2012年</td>
+<td style="text-align: center;">522,267</td>
+<td style="text-align: center;">122,903</td>
+<td style="text-align: center;">299,222 (4月)</td>
+<td style="text-align: center;">789,739 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013年</td>
+<td style="text-align: center;">618,064</td>
+<td style="text-align: center;">135,140</td>
+<td style="text-align: center;">389,345 (4月)</td>
+<td style="text-align: center;">915,801 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014年</td>
+<td style="text-align: center;">622,478</td>
+<td style="text-align: center;">98,933</td>
+<td style="text-align: center;">381,507 (4月)</td>
+<td style="text-align: center;">782,848 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015年</td>
+<td style="text-align: center;">639,801</td>
+<td style="text-align: center;">122,631</td>
+<td style="text-align: center;">412,369 (4月)</td>
+<td style="text-align: center;">894,598 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016年</td>
+<td style="text-align: center;">622,191</td>
+<td style="text-align: center;">112,556</td>
+<td style="text-align: center;">399,009 (11月)</td>
+<td style="text-align: center;">773,119 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2017年</td>
+<td style="text-align: center;">630,974</td>
+<td style="text-align: center;">106,053</td>
+<td style="text-align: center;">411,581 (11月)</td>
+<td style="text-align: center;">792,734 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2018年</td>
+<td style="text-align: center;">622,567</td>
+<td style="text-align: center;">104,341</td>
+<td style="text-align: center;">464,752 (9月)</td>
+<td style="text-align: center;">796,806 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2019年</td>
+<td style="text-align: center;">643,931</td>
+<td style="text-align: center;">96,112</td>
+<td style="text-align: center;">457,537 (11月)</td>
+<td style="text-align: center;">788,781 (1月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020年</td>
+<td style="text-align: center;">283,393</td>
+<td style="text-align: center;">215,996</td>
+<td style="text-align: center;">40,188 (5月)</td>
+<td style="text-align: center;">767,530 (1月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2021年</td>
+<td style="text-align: center;">222,325</td>
+<td style="text-align: center;">90,483</td>
+<td style="text-align: center;">113,187 (6月)</td>
+<td style="text-align: center;">429,221 (12月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2022年</td>
+<td style="text-align: center;">387,537</td>
+<td style="text-align: center;">103,539</td>
+<td style="text-align: center;">186,143 (2月)</td>
+<td style="text-align: center;">550,249 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023年</td>
+<td style="text-align: center;">507,989</td>
+<td style="text-align: center;">100,175</td>
+<td style="text-align: center;">313,256 (4月)</td>
+<td style="text-align: center;">677,551 (8月)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="h1_2">
+２．宿泊者数の重心（年平均の推移）
+</h1>
+<div style="text-align: center">
+<iframe src="../html/annual/北海道.html" width="1200" height="600">
+</iframe>
+<figcaption>
+図２：北海道内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の重心（年平均の推移）。
+</figcaption>
+</div>
+<p><a href="../html/annual/北海道.html">全画面表示</a></p>
+<h2 id="h2_4">
+重心の前年平均からの移動距離と方位、および緯度・経度
+</h2>
+<table>
+<caption>表２：重心の前年平均からの移動距離と方位、および緯度・経度。図２に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">方位</th>
+<th style="text-align: center;">距離</th>
+<th style="text-align: center;">緯度</th>
+<th style="text-align: center;">経度</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2008年</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">38.5206</td>
+<td style="text-align: center;">139.1922</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2009年</td>
+<td style="text-align: center;">東</td>
+<td style="text-align: center;">5.4km</td>
+<td style="text-align: center;">38.5202</td>
+<td style="text-align: center;">139.2541</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2010年</td>
+<td style="text-align: center;">西</td>
+<td style="text-align: center;">1.8km</td>
+<td style="text-align: center;">38.5222</td>
+<td style="text-align: center;">139.2332</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2011年</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">26.9km</td>
+<td style="text-align: center;">38.7344</td>
+<td style="text-align: center;">139.3818</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2012年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">25.2km</td>
+<td style="text-align: center;">38.5207</td>
+<td style="text-align: center;">139.2846</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013年</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">14.8km</td>
+<td style="text-align: center;">38.6521</td>
+<td style="text-align: center;">139.3144</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014年</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">15.0km</td>
+<td style="text-align: center;">38.7785</td>
+<td style="text-align: center;">139.3767</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">29.3km</td>
+<td style="text-align: center;">38.5453</td>
+<td style="text-align: center;">139.2179</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016年</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">3.5km</td>
+<td style="text-align: center;">38.5768</td>
+<td style="text-align: center;">139.2226</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2017年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">28.4km</td>
+<td style="text-align: center;">38.3568</td>
+<td style="text-align: center;">139.0576</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2018年</td>
+<td style="text-align: center;">東</td>
+<td style="text-align: center;">5.1km</td>
+<td style="text-align: center;">38.3577</td>
+<td style="text-align: center;">139.1164</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2019年</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">15.6km</td>
+<td style="text-align: center;">38.4906</td>
+<td style="text-align: center;">139.1729</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020年</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">163.6km</td>
+<td style="text-align: center;">39.8503</td>
+<td style="text-align: center;">139.9017</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2021年</td>
+<td style="text-align: center;">東</td>
+<td style="text-align: center;">4.3km</td>
+<td style="text-align: center;">39.8501</td>
+<td style="text-align: center;">139.9523</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2022年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">112.2km</td>
+<td style="text-align: center;">38.9346</td>
+<td style="text-align: center;">139.3996</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">73.2km</td>
+<td style="text-align: center;">38.3407</td>
+<td style="text-align: center;">139.0355</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2_5">
+運輸局別延べ宿泊者数
+</h2>
+<h3 id="h3_1">
+時系列（年平均）
+</h3>
+<div style="text-align: center">
+<img src="../images/bar_chart/北海道.png">
+<figcaption>
+図３：北海道内の従業員数100人以上の宿泊施設での１か月あたり平均宿泊者数（国外、居住地不詳を除く）の運輸局別内訳。
+</figcaption>
+</div>
+<h3 id="h3_2">
+寄与度（前年からの変化率に対する）
+</h3>
+<div style="text-align: center">
+<img src="../images/contribution/北海道.png">
+<figcaption>
+図４：北海道内の従業員数100人以上の宿泊施設での運輸局別宿泊者数（国外、居住地不詳を除く）から求めた寄与度。
+</figcaption>
+</div>
+<h1 id="h1_3">
+３．宿泊者数の重心（月別）
+</h3>
+<div style="text-align: center">
+<iframe src="../html/monthly/北海道.html" width="1200" height="600">
+</iframe>
+<figcaption>
+図５：北海道内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の重心（月別）。観測期間は2008年1月から2023年12月まで。
+</figcaption>
+</div>
+<p><a href="../html/monthly/北海道.html">全画面表示</a></p>
+<h2 id="h2_6">
+全期間（2008年1月～2023年12月）の平均と月別平均の比較
+</h2>
+<table>
+<caption>表３：全期間の平均から月別平均までの移動距離と方位、および緯度・経度。図５に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">方位</th>
+<th style="text-align: center;">距離</th>
+<th style="text-align: center;">緯度</th>
+<th style="text-align: center;">経度</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">全期間</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">38.7220</td>
+<td style="text-align: center;">139.3196</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1月</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">39.7km</td>
+<td style="text-align: center;">39.0788</td>
+<td style="text-align: center;">139.3426</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">40.5km</td>
+<td style="text-align: center;">38.4020</td>
+<td style="text-align: center;">139.0964</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">30.7km</td>
+<td style="text-align: center;">38.9787</td>
+<td style="text-align: center;">139.4523</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">91.8km</td>
+<td style="text-align: center;">39.4837</td>
+<td style="text-align: center;">139.7314</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">30.4km</td>
+<td style="text-align: center;">38.9825</td>
+<td style="text-align: center;">139.4292</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">44.8km</td>
+<td style="text-align: center;">38.3561</td>
+<td style="text-align: center;">139.1030</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7月</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">44.7km</td>
+<td style="text-align: center;">38.3272</td>
+<td style="text-align: center;">139.2206</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">8月</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">42.1km</td>
+<td style="text-align: center;">38.3440</td>
+<td style="text-align: center;">139.3610</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">9月</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">42.9km</td>
+<td style="text-align: center;">38.3422</td>
+<td style="text-align: center;">139.2317</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">10月</td>
+<td style="text-align: center;">南西</td>
+<td style="text-align: center;">29.4km</td>
+<td style="text-align: center;">38.5018</td>
+<td style="text-align: center;">139.1315</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">40.2km</td>
+<td style="text-align: center;">39.0650</td>
+<td style="text-align: center;">139.4681</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12月</td>
+<td style="text-align: center;">北北西</td>
+<td style="text-align: center;">10.0km</td>
+<td style="text-align: center;">38.8018</td>
+<td style="text-align: center;">139.2673</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2_7">
+運輸局別延べ宿泊者数
+</h2>
+<h3 id="h3_3">
+月別平均（2008年1月～2023年12月）
+</h3>
+<div style="text-align: center">
+<img src="../images/bar_chart_month/北海道.png">
+<figcaption>
+図６：北海道内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の運輸局別内訳（月別）。
+</figcaption>
+</div>
+<h3 id="h3_4">
+寄与度（全期間の平均から月別平均への変化率に対する）
+</h3>
+<div style="text-align: center">
+<img src="../images/contribution_month/北海道.png">
+<figcaption>
+図７：北海道内の従業員数100人以上の宿泊施設での運輸局別宿泊者数（国外、居住地不詳を除く）から求めた寄与度（月別）。
+</figcaption>
+</div>
+</body>
+<h1 id="h1_4">
+４．データのダウンロード
+</h1>
+<ul>
+<li>
+<a href="../csv/data_by_pref/延べ宿泊者数および重心（北海道）.csv" download>延べ宿泊者数および重心の緯度経度</a>
+</li>
+<li>
+<a href="../csv/bar_chart/運輸局別_年平均（北海道）.csv" download>運輸局別延べ宿泊者数（年平均）</a>
+</li>
+<li>
+<a href="../csv/bar_chart_month/運輸局別_月別（北海道）.csv" download>運輸局別延べ宿泊者数（月別）</a>
+</li>
+<li>
+<a href="../csv/contrib/前年からの変化率に対する寄与度（北海道）.csv" download>前年からの変化率に対する寄与度</a>
+</li>
+<li>
+<a href="../csv/contrib_month/月別平均への変化率に対する寄与度（北海道）.csv" download>月別平均への変化率に対する寄与度</a>
+</li>
+</ul>
+<div style="text-align: center">
+<p>出典：観光庁「宿泊旅行統計調査」に収録された「施設所在地別、居住地別延べ宿泊者数（従業員数100人以上の施設）」</p>
+<p>国土地理院「白地図（<a
+href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>）」（図２と図５）</p>
+</div>

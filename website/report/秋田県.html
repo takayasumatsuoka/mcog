@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="../css/style.css">
+<title>
+宿泊者数の重心 | 秋田県
+</title>
+</head>
+<body>
+<body>
+<nav id="global_navi">
+<ul>
+<li>
+<a href="../index.html">トップ</a>
+</li>
+<li>
+<a href="../how_to_use.html">使い方</a>
+</li>
+<li>
+<a href="../on_data.html">データについて</a>
+</li>
+<li>
+<a href="../method.html">算出方法について</a>
+</li>
+<li>
+<a href="../developer.html">発展的な使い方</a>
+</li>
+<li>
+<a href="../policy.html">サイトポリシー</a>
+</li>
+</ul>
+</nav>
+<ol class="breadcrumb">
+<li>
+<a href="../index.html">トップ</a>
+</li>
+<li>
+秋田県
+</li>
+</ol>
+<h1 id="h1_0">
+秋田県
+</h1>
+<ul>
+<li>
+<strong><a href="#h1_1">１．延べ宿泊者（総数、月次）の推移</a></strong>
+<ul>
+<li>
+<a href="#h2_1">時系列グラフ</a>
+</li>
+<li>
+<a href="#h2_2">基本統計量</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_2">２．宿泊者数の重心（年平均の推移）</a></strong>
+<ul>
+<li>
+<a href="#h2_4">重心の前年平均からの移動距離と方位、および緯度・経度</a>
+</li>
+<li>
+<a href="#h2_5">運輸局別延べ宿泊者数</a>
+<ul>
+<li>
+<a href="#h3_1">時系列（年平均）</a>
+</li>
+<li>
+<a href="#h3_2">寄与度（前年からの変化率に対する）</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_3">３．宿泊者数の重心（月別）</a></strong>
+<ul>
+<li>
+<a
+href="#h2_6">全期間（2008年1月～2023年12月）の平均と月別平均の比較</a>
+</li>
+<li>
+<a href="#h2_7">運輸局別延べ宿泊者数</a>
+<ul>
+<li>
+<a href="#h3_3">月別平均（2008年1月～2023年12月）</a>
+</li>
+<li>
+<a href="#h3_4">寄与度（全期間の平均から月別平均への変化率に対する）</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong><a href="#h1_4">４．データのダウンロード</a></strong>
+</li>
+</ul>
+</div>
+<h1 id="h1_1">
+１．延べ宿泊者（総数）の推移
+</h1>
+<h2 id="h2_1">
+時系列グラフ
+</h2>
+<div style="text-align: center">
+<img src="../images/line/秋田県.png">
+<figcaption>
+図１：秋田県内の従業員数100人以上の宿泊施設での延べ宿泊者数（国外、居住地不詳を含む総数）。
+</figcaption>
+</div>
+<h2 id="h2_2">
+基本統計量
+</h2>
+<table>
+<caption>表１：従業員数100人以上の宿泊施設での延べ宿泊者の総数（国外、および居住地不詳を含む）に関する基本統計量。単位は人。平均は１か月あたりの平均値を表す。図１に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">平均</th>
+<th style="text-align: center;">標準偏差</th>
+<th style="text-align: center;">最小値</th>
+<th style="text-align: center;">最大値</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2008年</td>
+<td style="text-align: center;">49,050</td>
+<td style="text-align: center;">12,509</td>
+<td style="text-align: center;">29,859 (12月)</td>
+<td style="text-align: center;">66,782 (6月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2009年</td>
+<td style="text-align: center;">42,097</td>
+<td style="text-align: center;">11,564</td>
+<td style="text-align: center;">25,493 (1月)</td>
+<td style="text-align: center;">61,329 (10月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2010年</td>
+<td style="text-align: center;">30,148</td>
+<td style="text-align: center;">5,178</td>
+<td style="text-align: center;">20,126 (12月)</td>
+<td style="text-align: center;">39,779 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2011年</td>
+<td style="text-align: center;">23,787</td>
+<td style="text-align: center;">6,760</td>
+<td style="text-align: center;">11,640 (3月)</td>
+<td style="text-align: center;">35,124 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2012年</td>
+<td style="text-align: center;">23,277</td>
+<td style="text-align: center;">4,024</td>
+<td style="text-align: center;">18,915 (2月)</td>
+<td style="text-align: center;">31,514 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013年</td>
+<td style="text-align: center;">16,772</td>
+<td style="text-align: center;">2,448</td>
+<td style="text-align: center;">14,044 (1月)</td>
+<td style="text-align: center;">21,737 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014年</td>
+<td style="text-align: center;">16,655</td>
+<td style="text-align: center;">2,763</td>
+<td style="text-align: center;">13,187 (2月)</td>
+<td style="text-align: center;">22,405 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015年</td>
+<td style="text-align: center;">19,920</td>
+<td style="text-align: center;">3,168</td>
+<td style="text-align: center;">15,443 (1月)</td>
+<td style="text-align: center;">26,181 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016年</td>
+<td style="text-align: center;">22,440</td>
+<td style="text-align: center;">2,978</td>
+<td style="text-align: center;">18,864 (1月)</td>
+<td style="text-align: center;">29,209 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2017年</td>
+<td style="text-align: center;">21,797</td>
+<td style="text-align: center;">3,506</td>
+<td style="text-align: center;">16,395 (2月)</td>
+<td style="text-align: center;">27,632 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2018年</td>
+<td style="text-align: center;">22,786</td>
+<td style="text-align: center;">3,322</td>
+<td style="text-align: center;">18,184 (1月)</td>
+<td style="text-align: center;">30,225 (8月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2019年</td>
+<td style="text-align: center;">22,809</td>
+<td style="text-align: center;">3,474</td>
+<td style="text-align: center;">17,502 (1月)</td>
+<td style="text-align: center;">28,294 (8月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020年</td>
+<td style="text-align: center;">13,367</td>
+<td style="text-align: center;">7,071</td>
+<td style="text-align: center;">1,393 (5月)</td>
+<td style="text-align: center;">23,598 (10月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2021年</td>
+<td style="text-align: center;">15,360</td>
+<td style="text-align: center;">4,504</td>
+<td style="text-align: center;">9,977 (1月)</td>
+<td style="text-align: center;">21,524 (11月)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2022年</td>
+<td style="text-align: center;">15,596</td>
+<td style="text-align: center;">3,602</td>
+<td style="text-align: center;">9,365 (2月)</td>
+<td style="text-align: center;">20,308 (9月)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023年</td>
+<td style="text-align: center;">13,625</td>
+<td style="text-align: center;">5,428</td>
+<td style="text-align: center;">5,727 (3月)</td>
+<td style="text-align: center;">23,403 (8月)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="h1_2">
+２．宿泊者数の重心（年平均の推移）
+</h1>
+<div style="text-align: center">
+<iframe src="../html/annual/秋田県.html" width="1200" height="600">
+</iframe>
+<figcaption>
+図２：秋田県内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の重心（年平均の推移）。
+</figcaption>
+</div>
+<p><a href="../html/annual/秋田県.html">全画面表示</a></p>
+<h2 id="h2_4">
+重心の前年平均からの移動距離と方位、および緯度・経度
+</h2>
+<table>
+<caption>表２：重心の前年平均からの移動距離と方位、および緯度・経度。図２に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">方位</th>
+<th style="text-align: center;">距離</th>
+<th style="text-align: center;">緯度</th>
+<th style="text-align: center;">経度</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2008年</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">37.6165</td>
+<td style="text-align: center;">139.5215</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2009年</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">7.4km</td>
+<td style="text-align: center;">37.5604</td>
+<td style="text-align: center;">139.4754</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2010年</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">26.2km</td>
+<td style="text-align: center;">37.7950</td>
+<td style="text-align: center;">139.4408</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2011年</td>
+<td style="text-align: center;">東北東</td>
+<td style="text-align: center;">35.1km</td>
+<td style="text-align: center;">37.9124</td>
+<td style="text-align: center;">139.8110</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2012年</td>
+<td style="text-align: center;">北東</td>
+<td style="text-align: center;">1.6km</td>
+<td style="text-align: center;">37.9210</td>
+<td style="text-align: center;">139.8257</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013年</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">19.4km</td>
+<td style="text-align: center;">37.7467</td>
+<td style="text-align: center;">139.8103</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014年</td>
+<td style="text-align: center;">南西</td>
+<td style="text-align: center;">5.8km</td>
+<td style="text-align: center;">37.7055</td>
+<td style="text-align: center;">139.7702</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015年</td>
+<td style="text-align: center;">南西</td>
+<td style="text-align: center;">14.4km</td>
+<td style="text-align: center;">37.5979</td>
+<td style="text-align: center;">139.6781</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016年</td>
+<td style="text-align: center;">北北西</td>
+<td style="text-align: center;">13.5km</td>
+<td style="text-align: center;">37.7098</td>
+<td style="text-align: center;">139.6182</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2017年</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">5.1km</td>
+<td style="text-align: center;">37.6639</td>
+<td style="text-align: center;">139.6134</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2018年</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">12.1km</td>
+<td style="text-align: center;">37.5553</td>
+<td style="text-align: center;">139.6245</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2019年</td>
+<td style="text-align: center;">南南東</td>
+<td style="text-align: center;">5.6km</td>
+<td style="text-align: center;">37.5070</td>
+<td style="text-align: center;">139.6415</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020年</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">22.9km</td>
+<td style="text-align: center;">37.7090</td>
+<td style="text-align: center;">139.6962</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2021年</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">34.3km</td>
+<td style="text-align: center;">38.0162</td>
+<td style="text-align: center;">139.7335</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2022年</td>
+<td style="text-align: center;">南西</td>
+<td style="text-align: center;">36.8km</td>
+<td style="text-align: center;">37.7439</td>
+<td style="text-align: center;">139.4958</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023年</td>
+<td style="text-align: center;">南西</td>
+<td style="text-align: center;">40.6km</td>
+<td style="text-align: center;">37.4570</td>
+<td style="text-align: center;">139.2108</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2_5">
+運輸局別延べ宿泊者数
+</h2>
+<h3 id="h3_1">
+時系列（年平均）
+</h3>
+<div style="text-align: center">
+<img src="../images/bar_chart/秋田県.png">
+<figcaption>
+図３：秋田県内の従業員数100人以上の宿泊施設での１か月あたり平均宿泊者数（国外、居住地不詳を除く）の運輸局別内訳。
+</figcaption>
+</div>
+<h3 id="h3_2">
+寄与度（前年からの変化率に対する）
+</h3>
+<div style="text-align: center">
+<img src="../images/contribution/秋田県.png">
+<figcaption>
+図４：秋田県内の従業員数100人以上の宿泊施設での運輸局別宿泊者数（国外、居住地不詳を除く）から求めた寄与度。
+</figcaption>
+</div>
+<h1 id="h1_3">
+３．宿泊者数の重心（月別）
+</h3>
+<div style="text-align: center">
+<iframe src="../html/monthly/秋田県.html" width="1200" height="600">
+</iframe>
+<figcaption>
+図５：秋田県内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の重心（月別）。観測期間は2008年1月から2023年12月まで。
+</figcaption>
+</div>
+<p><a href="../html/monthly/秋田県.html">全画面表示</a></p>
+<h2 id="h2_6">
+全期間（2008年1月～2023年12月）の平均と月別平均の比較
+</h2>
+<table>
+<caption>表３：全期間の平均から月別平均までの移動距離と方位、および緯度・経度。図５に対応。</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">方位</th>
+<th style="text-align: center;">距離</th>
+<th style="text-align: center;">緯度</th>
+<th style="text-align: center;">経度</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">全期間</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">37.7011</td>
+<td style="text-align: center;">139.6229</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">34.7km</td>
+<td style="text-align: center;">37.9883</td>
+<td style="text-align: center;">139.7793</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2月</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">8.2km</td>
+<td style="text-align: center;">37.7748</td>
+<td style="text-align: center;">139.6270</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">12.6km</td>
+<td style="text-align: center;">37.8002</td>
+<td style="text-align: center;">139.6926</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">19.5km</td>
+<td style="text-align: center;">37.5517</td>
+<td style="text-align: center;">139.5072</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5月</td>
+<td style="text-align: center;">北</td>
+<td style="text-align: center;">34.6km</td>
+<td style="text-align: center;">38.0094</td>
+<td style="text-align: center;">139.6829</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">47.9km</td>
+<td style="text-align: center;">38.1087</td>
+<td style="text-align: center;">139.8006</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7月</td>
+<td style="text-align: center;">東</td>
+<td style="text-align: center;">4.8km</td>
+<td style="text-align: center;">37.7019</td>
+<td style="text-align: center;">139.6775</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">8月</td>
+<td style="text-align: center;">南</td>
+<td style="text-align: center;">46.1km</td>
+<td style="text-align: center;">37.2923</td>
+<td style="text-align: center;">139.5330</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">9月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">36.9km</td>
+<td style="text-align: center;">37.3788</td>
+<td style="text-align: center;">139.5193</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">10月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">52.6km</td>
+<td style="text-align: center;">37.2937</td>
+<td style="text-align: center;">139.3180</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11月</td>
+<td style="text-align: center;">南南西</td>
+<td style="text-align: center;">18.4km</td>
+<td style="text-align: center;">37.5404</td>
+<td style="text-align: center;">139.5736</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12月</td>
+<td style="text-align: center;">北北東</td>
+<td style="text-align: center;">32.6km</td>
+<td style="text-align: center;">37.9727</td>
+<td style="text-align: center;">139.7641</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2_7">
+運輸局別延べ宿泊者数
+</h2>
+<h3 id="h3_3">
+月別平均（2008年1月～2023年12月）
+</h3>
+<div style="text-align: center">
+<img src="../images/bar_chart_month/秋田県.png">
+<figcaption>
+図６：秋田県内の従業員数100人以上の宿泊施設での宿泊者数（国外、居住地不詳を除く）の運輸局別内訳（月別）。
+</figcaption>
+</div>
+<h3 id="h3_4">
+寄与度（全期間の平均から月別平均への変化率に対する）
+</h3>
+<div style="text-align: center">
+<img src="../images/contribution_month/秋田県.png">
+<figcaption>
+図７：秋田県内の従業員数100人以上の宿泊施設での運輸局別宿泊者数（国外、居住地不詳を除く）から求めた寄与度（月別）。
+</figcaption>
+</div>
+</body>
+<h1 id="h1_4">
+４．データのダウンロード
+</h1>
+<ul>
+<li>
+<a href="../csv/data_by_pref/延べ宿泊者数および重心（秋田県）.csv" download>延べ宿泊者数および重心の緯度経度</a>
+</li>
+<li>
+<a href="../csv/bar_chart/運輸局別_年平均（秋田県）.csv" download>運輸局別延べ宿泊者数（年平均）</a>
+</li>
+<li>
+<a href="../csv/bar_chart_month/運輸局別_月別（秋田県）.csv" download>運輸局別延べ宿泊者数（月別）</a>
+</li>
+<li>
+<a href="../csv/contrib/前年からの変化率に対する寄与度（秋田県）.csv" download>前年からの変化率に対する寄与度</a>
+</li>
+<li>
+<a href="../csv/contrib_month/月別平均への変化率に対する寄与度（秋田県）.csv" download>月別平均への変化率に対する寄与度</a>
+</li>
+</ul>
+<div style="text-align: center">
+<p>出典：観光庁「宿泊旅行統計調査」に収録された「施設所在地別、居住地別延べ宿泊者数（従業員数100人以上の施設）」</p>
+<p>国土地理院「白地図（<a
+href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>）」（図２と図５）</p>
+</div>
